@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="cont">
+            <div class="searcher">
+                <input id="input" type="text" placeholder="Town">
+                <button onclick="toCatchDataWeather()" type="submit">Get Weather</button>
+            </div>
+        </div> 
+        <div class="main">           
+                <h1 class="town someMargin" id="weatherNameOfTown">Town</h1>
+                <h2 class="temp someMargin" id="weatherTemperature">Temperature</h2>
+                <p class="Humidity someMargin" id="weathterHuminity">Humidity</p>
+                <p class="status someMargin" id="WheatherStatus">Wind</p>
+                <img class="image someMargin" id="image" src="images/sun.jpg" alt="image of the day" > 
+            </div>
+        </div>
+        
+        
+        <script  src='app.js'></script>
+</body>
+</html>

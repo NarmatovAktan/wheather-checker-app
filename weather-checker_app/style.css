@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+button:hover {
+    background: #91af6b;
+    font-size: 1.25rem;
+    cursor: pointer;
+} 
+button { 
+    background: #b5da84;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 1rem;
+    transition: 300ms;
+}
+.container {
+    align-items: center;
+    text-align: center;
+}
+.main { 
+    margin: 2vh auto;
+    width: 50vw;
+    border-radius: 5%;
+    background: #876060;
+    text-align: center;
+    align-items: center;
+
+}
+
+.someMargin {
+    margin-top: 0.5rem;
+}
+
+.searcher {
+    text-align: center;
+    align-items: center;
+}
+.image {
+    width: 20vh;
+    height: 20vh;
+}
+
